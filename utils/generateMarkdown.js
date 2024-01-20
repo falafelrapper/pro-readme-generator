@@ -15,16 +15,16 @@ function renderLicenseSection(license) {
 
 function generateMarkdown(data) {
   return `# ${data.title}
-  licensebadge ${renderLicenseBadge(data.license)}
+  ${renderLicenseBadge(data.license)}
 
 
   ## Table of Contents
   
-  * Description
-  * Installation Instructions
-  * Usage Information
-  * Test Instructions
-  * Credits
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage Information](#usage-information)
+  * [Test Instructions](#test-instructions)
+  * [Credits](#credits)
   
   ## Description
   
