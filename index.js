@@ -48,7 +48,7 @@ function init() {
             const READMEContent = generateMarkdown(answers);
 
             fs.writeFile('./final-readme/README.md', READMEContent, (err) =>
-                err ? console.log(err) : console.log('Successfully created index.html!')
+                err ? console.log(err) : console.log('Successfully created README!')
             );
         })
 };
